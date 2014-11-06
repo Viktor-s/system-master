@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/pre-dexed/debug/httpmime-4.0.1-a95d776b800a0cbaacf438aabda3110722faaa80.jar"
+        jar="/Users/addicted/AndroidStudioProjects/Ctd/app/libs/httpmime-4.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="326bf4147f100e8a4fdd7f1867a87e969fb10812"/>
+    <item
+        dex="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/pre-dexed/debug/apache-mime4j-0.6-73eef93d825329386a70f9dff253abdf44e68034.jar"
+        jar="/Users/addicted/AndroidStudioProjects/Ctd/app/libs/apache-mime4j-0.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="945007627e8d12275d755081a9e609c018e1210d"/>
+    <item
+        dex="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/pre-dexed/debug/libjingle_peerconnection-cc1fcd4fb06b65ff0749caf728de4e6d78d1a7e4.jar"
+        jar="/Users/addicted/AndroidStudioProjects/Ctd/app/libs/libjingle_peerconnection.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d329013ea3a54ee0c2e54f9c568c77f4a16f0a95"/>
+    <item
+        dex="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/pre-dexed/debug/classes-4a3e03cd35c6660dda71864186f7acfe601b07bb.jar"
+        jar="/Users/addicted/AndroidStudioProjects/Ctd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

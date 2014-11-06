@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="#2e2c30">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2e2c30"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3a383c"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <ImageView
+            android:layout_width="19px"
+            android:layout_height="14px"
+            android:id="@+id/connected"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/wifi_name"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/connected"
+            android:layout_marginLeft="13dp"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="15dp"
+            android:id="@+id/network_protected"
+            android:background="@drawable/wifi_lock"
+            android:layout_toLeftOf="@+id/wifi_strength"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:id="@+id/wifi_strength"
+            android:background="@drawable/wifi_4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_1_text">Do something</string>
+    <string name="button_2_text">Fuck it</string>
+    <color name="button_1_color">#cc3333</color>
+    <color name="button_2_color">#33cccc</color>
+
+</resources>

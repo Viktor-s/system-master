@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context="me.up.ctd.WifiTester"
+    android:background="#29272a">
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wifi_title"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="60dp"
+            android:lineSpacingExtra="20dp"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text=""
+            android:id="@+id/back_button"
+            android:background="@drawable/close"
+            android:clickable="false"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/relativeLayout2">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scroll_area"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/wifi_list"></LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

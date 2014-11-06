@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="me.up.ctd.MediaMessage">
+
+    <SurfaceView
+        android:id="@+id/camerapreview"
+        android:layout_width="425dp"
+        android:layout_height="285dp"
+        android:layout_gravity="center_vertical|top" />
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:id="@+id/switch_camera"
+        android:layout_gravity="right|top"
+        android:background="@drawable/back"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:id="@+id/record_video"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/video_record" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:id="@+id/take_photo"
+        android:layout_gravity="center_vertical|right|top"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/photo_button" />
+
+
+</FrameLayout>
